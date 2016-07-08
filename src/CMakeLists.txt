@@ -49,3 +49,4 @@ add_executable(${EXEC_NAME} ${VALA_C})
 target_link_libraries(${EXEC_NAME} ${DEPS_LIBRARIES})
 # install the binaries we just made
 install (TARGETS ${EXEC_NAME} RUNTIME DESTINATION bin)
+add_subdirectory (view)

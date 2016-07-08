@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-08 14:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: AboutDialog.vala:27 MainWindow.vala:401
+msgid "About"
+msgstr ""
+
+#: AboutDialog.vala:41
+msgid "A stylish to-do list with built-in productivity timer."
+msgstr "说明文档"
+
+#: ContributeDialog.vala:27
+msgid "Contributions and Donations"
+msgstr ""
+
+#: ContributeDialog.vala:30
+msgid "Thank you for supporting"
+msgstr ""
+
+#: ContributeDialog.vala:31
+msgid ""
+"Submitting code, artwork, translations or documentation is a great way of "
+"contributing to the project:"
+msgstr ""
+
+#: ContributeDialog.vala:35
+msgid ""
+"Donations give me a chance to dedicate more time towards implementing new "
+"features:"
+msgstr ""
+
+#: MainWindow.vala:166 MainWindow.vala:182 MainWindow.vala:187
+msgid "To-Do"
+msgstr ""
+
+#: MainWindow.vala:167 MainWindow.vala:183 MainWindow.vala:188
+#: SettingsDialog.vala:154
+msgid "Timer"
+msgstr ""
+
+#: MainWindow.vala:168 MainWindow.vala:184 MainWindow.vala:189
+msgid "Done"
+msgstr ""
+
+#: MainWindow.vala:271
+msgid "Menu"
+msgstr ""
+
+#: MainWindow.vala:398 SettingsDialog.vala:43
+msgid "Settings"
+msgstr ""
+
+#: MainWindow.vala:399
+msgid "Clear Done List"
+msgstr ""
+
+#: MainWindow.vala:400
+msgid "Contribute / Donate"
+msgstr ""
+
+#: MainWindow.vala:453 TimerView.vala:78
+msgid "Take a Break"
+msgstr ""
+
+#: MainWindow.vala:454
+msgid "Relax and stop thinking about your current task for a while"
+msgstr ""
+
+#: MainWindow.vala:459
+msgid "The Break is Over"
+msgstr ""
+
+#: MainWindow.vala:460
+msgid "Your next task is"
+msgstr ""
+
+#: MainWindow.vala:477
+msgid "Prepare for your break"
+msgstr ""
+
+#: SettingsDialog.vala:45
+msgid "Close"
+msgstr ""
+
+#: SettingsDialog.vala:112 SettingsDialog.vala:117
+msgid "directory"
+msgstr ""
+
+#: SettingsDialog.vala:121
+msgid ""
+"If no appropriate folder was found, Go For It! defaults to creating a Todo "
+"folder in your home directory."
+msgstr ""
+
+#: SettingsDialog.vala:155
+msgid "Task duration (minutes)"
+msgstr ""
+
+#: SettingsDialog.vala:156
+msgid "Break duration (minutes)"
+msgstr ""
+
+#: SettingsDialog.vala:157
+msgid "Reminder before task ends (seconds)"
+msgstr ""
+
+#: SettingsDialog.vala:196
+msgid "Client side decorations"
+msgstr ""
+
+#: SettingsDialog.vala:197
+msgid "Go For It! needs to restart for changes to have an effect."
+msgstr ""
+
+#: SettingsDialog.vala:198
+msgid "Use a header bar"
+msgstr ""
+
+#: TaskList.vala:137
+msgid "Add new task"
+msgstr ""
+
+#: TimerView.vala:82
+msgid "Active Task"
+msgstr ""
+
+#: TimerView.vala:103
+msgid "Pau_se"
+msgstr ""
+
+#: TimerView.vala:106
+msgid "_Start"
+msgstr ""
+
+#: TimerView.vala:133
+msgid "Inactive"
+msgstr ""
+
+#: TimerView.vala:134
+msgid "No task has been selected"
+msgstr ""
+
+#: TimerView.vala:220
+msgid "S_kip"
+msgstr ""
+
+#: TimerView.vala:221
+msgid "_Done"
+msgstr ""
+
+#: TimerView.vala:266
+msgid "Relax"
+msgstr ""
+
+#: TimerView.vala:267
+msgid "You have nothing to do."
+msgstr ""

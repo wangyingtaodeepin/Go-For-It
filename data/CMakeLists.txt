@@ -1,5 +1,6 @@
 # install the application's icons
 set(SYSTEM_DEFAULT_THEME ${CMAKE_INSTALL_PREFIX}/share/icons/hicolor)
+set(SYSTEM_DEFAULT_DESKTOPPATH /usr/share/applications)
 install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/icons/hicolor/16x16/apps/go-for-it.svg DESTINATION ${SYSTEM_DEFAULT_THEME}/16x16/apps)
 install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/icons/hicolor/24x24/apps/go-for-it.svg DESTINATION ${SYSTEM_DEFAULT_THEME}/24x24/apps)
 install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/icons/hicolor/32x32/apps/go-for-it.svg DESTINATION ${SYSTEM_DEFAULT_THEME}/32x32/apps)
@@ -8,6 +9,7 @@ install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/icons/hicolor/64x64/apps/go-for-it.svg
 install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/icons/hicolor/128x128/apps/go-for-it.svg DESTINATION ${SYSTEM_DEFAULT_THEME}/128x128/apps)
 # install the fallback menu icon
 install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/icons/hicolor/24x24/actions/go-for-it-open-menu-fallback.svg DESTINATION ${SYSTEM_DEFAULT_THEME}/24x24/actions)
+install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/go-for-it.desktop DESTINATION ${SYSTEM_DEFAULT_DESKTOPPATH})
 
 
 install(

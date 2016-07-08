@@ -1,7 +1,9 @@
 [Desktop Entry]
 Name=Go For It!
+Name[zh_CN]=记事本
 GenericName=Go For It!
 Comment=A stylish to-do list with built-in productivity timer.
+Comment[zh_CN]=计时工作列表
 Categories=GTK;Utility;
 Exec=go-for-it
 Icon=go-for-it

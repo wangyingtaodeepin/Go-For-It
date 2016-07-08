@@ -43,7 +43,8 @@ public class Main : Gtk.Application {
         Intl.setlocale(LocaleCategory.MESSAGES, "");
         Intl.textdomain(GETTEXT_PACKAGE); 
         Intl.bind_textdomain_codeset(GETTEXT_PACKAGE, "utf-8"); 
-        Intl.bindtextdomain(GETTEXT_PACKAGE, "./locale");
+        // Intl.bindtextdomain(GETTEXT_PACKAGE, "./locale");
+        Intl.bindtextdomain(GETTEXT_PACKAGE, "/usr/share/locale");
         
         apply_desktop_specific_tweaks ();
         Main app = new Main ();
